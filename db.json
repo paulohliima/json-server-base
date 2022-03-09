@@ -6,6 +6,33 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "teste@teste.com",
+      "password": "$2a$10$S9na00QUYIvhhXFdJnxCT.CZ/lx2pcmfpMa0dbhhfd/qZwcszyGSK",
+      "name": "Teste",
+      "age": 26,
+      "id": 2
+    }
+  ],
+  "techs": [
+    {
+      "title": "JS",
+      "nivel": "AVANÇADO",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "title": "REACT",
+      "nivel": "AVANÇADO",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "title": "HTML",
+      "nivel": "AVANÇADO",
+      "userId": 2,
+      "id": 3
     }
   ]
 }
