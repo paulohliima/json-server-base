@@ -8,12 +8,12 @@ POST /register - Registrar um novo usuário <br/>
 
 Formato de Envio <br/>
 
-{
-	"email": "teste@teste.com",
-	"password": "123456",
-	"name": "Teste",
-	"age": 26
-}
+{<br/>
+	"email": "teste@teste.com",<br/>
+	"password": "123456",<br/>
+	"name": "Teste",<br/>
+	"age": 26<br/>
+}<br/>
 
 
 --------------------------------------------------------------------------
@@ -21,11 +21,11 @@ POST /techs - Postar tecnologias do usuário (REQUIRED BEARER TOKEN) <br/>
 
 Formato de Envio <br/>
 
-{
-	userId: "id do usuário",
-	title: "tecnologia",
-	nivel: "nivel"
-}
+{<br/>
+	userId: "id do usuário",<br/>
+	title: "tecnologia",<br/>
+	nivel: "nivel"<br/>
+}<br/>
 
 
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
@@ -44,8 +44,8 @@ POST /login ou POST /signin - Fazer login com conta de usuário (REQUIRED EMAIL 
 
 Formato de Envio <br/>
 
-{
-	email: "email",
-	password: "password"
-}
+{<br/>
+	email: "email",<br/>
+	password: "password"<br/>
+}<br/>
 --------------------------------------------------------------------------<br/>
